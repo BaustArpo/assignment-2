@@ -1,3 +1,338 @@
-h3{
-    color: brown;
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  margin-bottom: 3vw;
+}
+main {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+/* header and navbar */
+header {
+  background: rgba(255, 144, 14, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav h4 {
+  margin-left: 6vw;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  margin-right: 7vw;
+}
+nav li {
+  list-style: none;
+  margin-left: 50px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #424242;
+}
+
+.header-title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 75px;
+  text-align: center;
+  color: #131313;
+  margin-bottom: 1vw;
+}
+.header-description {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1vw;
+  text-align: center;
+  color: #727272;
+}
+h6 {
+  margin-bottom: 2vw;
+}
+.Explore-btn {
+  background: #ff900e;
+  border-radius: 8px;
+  border: none;
+  width: 180px;
+  height: 64px;
+  color: azure;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 6vw;
+  margin-top: 50px;
+}
+
+.banner-img {
+  margin-left: 19vw;
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.head-img {
+  height: 500px;
+  border-radius: 20px;
+}
+/* our feature with four images */
+.our-feature {
+  display: flex;
+  gap: 5vw;
+  justify-content: center;
+}
+.our-feature-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 1vw;
+  grid-column-gap: 1vw;
+}
+.feature-img {
+  border-radius: 10px;
+}
+.our-feature-info {
+  margin-top: 10vw;
+}
+.gray {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+
+  /* Dark 03 */
+
+  color: #727272;
+}
+.black {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+
+  /* Dark 01 */
+
+  color: #131313;
+}
+.orange {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+
+  color: #ff900e;
+}
+.descrip {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* or 162% */
+
+  /* Dark 03 */
+
+  color: #727272;
+}
+/* Lovely features */
+.feature-love {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 5vw;
+  margin-bottom: 50px;
+}
+.feature-love-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+.dextop {
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+}
+.headline {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #131313;
+}
+.sub-headline {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  /* Dark 03 */
+
+  color: #727272;
+}
+.img {
+  border-radius: 20px;
+  height: 90%;
+  width: 80%;
+  margin-left: 16vw;
+}
+.Explore-btn-1 {
+  background: #ff900e;
+  border-radius: 8px;
+  border: none;
+  width: 180px;
+  height: 64px;
+  color: azure;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 6vw;
+  float: left;
+}
+
+/* some facts */
+.some-facts-descrip {
+  margin-bottom: 50px;
+}
+.some-facts {
+  display: flex;
+  gap: 20%;
+  margin-bottom: 70px;
+}
+.fact-img:hover {
+  transform: rotate(90deg);
+}
+.award {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 53px;
+  color: #424242;
+}
+.sub-headline-1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  /* Dark 03 */
+
+  color: #727272;
+}
+/* Sponsor */
+.sponsor-title {
+  display: flex;
+  justify-content: center;
+}
+.sponsor-img {
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+/* footer */
+.footer {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+  /* Dark 02 */
+
+  color: #424242;
+  background: #fff4e7;
+  border-radius: 8px;
+  margin-bottom: 200px;
+  padding: 50px;
+}
+/* mobile devices */
+@media only screen and (max-width: 576px) {
+    .container{
+        width: 100%;
+    }
+  /* header */
+  nav h4 {
+    font-size: medium;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .descrip-1 {
+    display: none;
+  }
+  .head-img {
+    display: block;
+    margin-left: 4vw;
+    width: 60vw;
+    height: 60vw;
+  }
+  /*  */
+  .our-feature {
+    flex-direction: column;
+    align-items: center;
+  }
+  .our-feature-img {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
+
+  .descrip,
+  .sub-headline {
+    display: none;
+  }
+
+  /*  */
+  .feature-love {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
+  /*  */
+  .some-facts {
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+  }
+  .fact-img:hover {
+    animation-name: spinning-circle;
+    animation-duration: 4s;
+  }
+  /*  */
+  .sponsor-img {
+    flex-direction: column;
+    align-items: center;
+  }
+  /*  */
+  .footer{
+    text-align: center;
+    width: 100%;
+  }
 }
